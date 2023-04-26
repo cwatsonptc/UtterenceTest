@@ -23,6 +23,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+repository: cwatsonptc/UtterenceTest
 
 # Build settings
 markdown: kramdown
@@ -56,6 +57,13 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
 
 author:
   name   : "First Lastname"
